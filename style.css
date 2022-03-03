@@ -48,6 +48,7 @@ hr {
 .btn-primary {
   background-color: #f05f44;
   border-color: #f05f44;
+  color: 181818;
 }
 
 .btn-primary:hover {
