@@ -27,6 +27,25 @@ h1 {
         border-radius: 200px;
         text-transform: uppercase;
    }
+.btn-primary {
+  background-color: #f05f44;
+  border-color: #f05f44;
+  color: #181818;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+  color: #181818;
+}
+
+.btn-primary:active {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+  color: #181818;
+}
 }
 
 hr {
