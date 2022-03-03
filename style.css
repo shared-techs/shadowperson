@@ -22,10 +22,10 @@ h1 {
         padding: 0;	
     }
   .btn {
+        color: #181818;
         font-weight: 500;
         border-radius: 200px;
         text-transform: uppercase;
-  color: 181818;
    }
 }
 
@@ -43,23 +43,23 @@ hr {
   font-weight: 700;
   border-radius: 300px;
   text-transform: uppercase;
-  color: 181818;
+  color: #181818;
 }
 
 .btn-primary {
   background-color: #f05f44;
   border-color: #f05f44;
-  color: 181818;
+  color: #181818;
 }
 
 .btn-primary:hover {
   background-color: #ee4b08;
   border-color: #ee4b08;
   border-width: 4px;
-  color: 181818;
+  color: #181818;
 }
 
 .btn-xl {
   padding: 1rem 2rem;
-  color: 181818;
+  color: #181818;
 }
