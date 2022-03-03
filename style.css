@@ -12,7 +12,7 @@ html {
 
 h1 {
   font-size: 1.5em;
-  color: #CA6702;
+  color: #ca6702:
 }
 
 @media only screen and (max-width: 640px) {
@@ -36,7 +36,7 @@ hr {
 }
 
 .buffer {
-  height: 8rem;
+  height: 7rem;
 }
 
 .btn {
