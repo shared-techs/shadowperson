@@ -13,6 +13,7 @@ html {
 h1 {
   font-size: 3rem;
   color: #e2dbdb;
+  color: #003049;
 }
 
 @media only screen and (max-width: 640px) {
