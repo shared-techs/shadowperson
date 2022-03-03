@@ -12,12 +12,12 @@ html {
 
 h1 {
   font-size: 1.5em;
-  color: #ff5400;
+  color: #CA6702;
 }
 
 @media only screen and (max-width: 640px) {
     h1 {
-        font-size: 2.0em;
+        font-size: 1rem;
         padding: 0;
     }
 }
