@@ -3,7 +3,7 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background: url(stefano-pollio-ZC0EbdLC8G0-unsplash.jpg) no-repeat center center fixed; 
+  background: url(jesse-bowser-ZmBnq7ui6mU-unsplash.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,33 +19,15 @@ h1 {
 @media only screen and (max-width: 640px) {
     h1 {
         font-size: 1.2em;
-        padding: 0;	
+        padding: 0;
+ 	
     }
-  .btn {
-        color: #181818;
-        font-weight: 500;
-        border-radius: 200px;
-        text-transform: uppercase;
-   }
-.btn-primary {
-  background-color: #f05f44;
-  border-color: #f05f44;
-  color: #181818;
-}
-
-.btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 4px;
-  color: #181818;
-}
-
-.btn-primary:active {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 4px;
-  color: #181818;
-}
+    .btn {
+          color: #181818;
+          font-size: 12px;
+          border-radius: 150px;
+          text-transform: uppercase;
+    }
 }
 
 hr {
@@ -59,33 +41,41 @@ hr {
 }
 
 .btn {
+  color: #181818;
   font-weight: 700;
   border-radius: 300px;
   text-transform: uppercase;
-  color: #181818;
 }
 
 .btn-primary {
   background-color: #f05f44;
   border-color: #f05f44;
-  color: #181818;
 }
 
 .btn-primary:hover {
+  color: #181818;
   background-color: #ee4b08;
   border-color: #ee4b08;
   border-width: 4px;
-  color: #181818;
 }
 
-.btn-primary:active {
+.btn-primary:hover:active {
+  color: #181818;
   background-color: #ee4b08;
   border-color: #ee4b08;
   border-width: 4px;
-  color: #181818;
 }
+
 
 .btn-xl {
   padding: 1rem 2rem;
-  color: #181818;
 }
+
+#myButton:focus, #myButton:active {
+  color: #181818;
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 4px;
+  outline: none;
+  box-shadow: none;
+} 
